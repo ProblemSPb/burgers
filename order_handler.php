@@ -86,3 +86,30 @@ if (isset($_POST)) {
     }
     fclose($file_pointer);
 }
+
+
+// TODO:
+// проверка, если в POST есть данные
+/*if (empty($_POST['email'])) {
+    header("404");
+    exit();
+}*/
+
+// разнести на файлы
+// убрать email из глобальной области видимости
+//$email = $_POST['email'];
+//$address_data = $_POST;
+
+// получение имейла
+
+// добавление имейла
+
+// добавление заказа
+
+// печать сообщения
+
+// main to collect them all
+/*function main($data)
+{
+    echo 1;
+}*/
